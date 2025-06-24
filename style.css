@@ -1,0 +1,37 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  touch-action: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px;
+}
+
+canvas {
+  flex: 1;
+  border: 3px dashed #ccc;
+  margin: 10px auto;
+  touch-action: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+button, input[type="color"] {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
