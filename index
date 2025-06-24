@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Draw & Snap - Drawing Mode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Draw Your Idea!</h1>
+    <canvas id="drawingCanvas"></canvas>
+    <div class="controls">
+      <input type="color" id="colorPicker" />
+      <button onclick="clearCanvas()">🧽 Clear</button>
+      <button onclick="saveDrawing()">💾 Save</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
